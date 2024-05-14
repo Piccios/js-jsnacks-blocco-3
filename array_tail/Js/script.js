@@ -1,12 +1,17 @@
 let N = parseInt(prompt("Quanti elementi vuoi che l'array contenga?"))
 
 array = [];
-// N sara' il numero di numeri casuali da 1 a 100 che comporranno l'array
 
-// stampo in console solo gli ultimi 5 numeri generati
 for(let i = 0; i < N; i++) {
-  array.push(Math.floor(Math.random() * 100) + 1);
+    array.push(Math.floor(Math.random() * 100) + 1);
+}
+
+console.log(array.slice(-5));
+
+let choice = parseInt(prompt("Quannti elementi vuoi stampare?"));
+
+for(let i=0; i<choice; i++){
+    console.log(array[array.length-choice+i]);
 }
 
 
-console.log(array.slice(-5));
