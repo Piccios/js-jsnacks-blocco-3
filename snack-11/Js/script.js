@@ -4,7 +4,7 @@
 
 let array = [];
 
-while (array < 50) {
+while (array = 50) {
     let number = parseInt(prompt('Inserisci un numero: '))
     array.push(number)
 }
