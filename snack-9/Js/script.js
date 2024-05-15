@@ -10,5 +10,5 @@ while (array.length < 6) {
     if (number % 2 === 1) {
         array.push(number)
     }
-    console.log(array)
 }
+console.log(array)
