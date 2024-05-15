@@ -3,10 +3,14 @@
 
 
 let array = [];
-
-while (array = 50) {
+let somma = 0;
+while (somma < 50) {
     let number = parseInt(prompt('Inserisci un numero: '))
-    array.push(number)
+    if (!Number.isNaN(number)) {
+        array.push(number)
+        somma += number;
+    }
 }
+
 
 console.log(array)
