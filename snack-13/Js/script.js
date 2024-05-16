@@ -1,10 +1,11 @@
 
 
-function invert(number) {
-    let result = 0;
-    const stringNum = number.toString();
-    const length = stringNum.length;
+function getReversedNumber(number) {
+    const string = number.toString();
+    let reversedString = '';
 
-    for (let i = length - 1; i >= 0; i--) {
+    for (let index = string.length - 1; index >= 0; index--) {
+        reversedString += string[index];
     }
+    return reversedString;
 }
