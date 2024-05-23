@@ -5,95 +5,95 @@
 
 
 
-const cars = [ 
+const cars = [
     {
         auto: 'auto 1',
         marca: 'bmw',
-        modello:'city-car',
+        modello: 'city-car',
         alimentazione: 'benzina',
-    }
+    },
     {
         auto: 'auto 2',
         marca: 'mercedes',
         modello: 'sportiva',
         alimentazione: 'benzina',
-    }
+    },
     {
         auto: 'auto 3',
         marca: 'bmw',
-        modello:'sportiva',
+        modello: 'sportiva',
         alimentazione: 'diesel',
-    }
+    },
     {
         auto: 'auto 4',
         marca: 'toyota',
-        modello:'sportiva',
+        modello: 'sportiva',
         alimentazione: 'benzina',
-    }
+    },
     {
         auto: 'auto 5',
         marca: 'ford',
-        modello:'city-car',
-        alimentazione:'diesel',
-    }
+        modello: 'city-car',
+        alimentazione: 'diesel',
+    },
     {
         auto: 'auto 6',
         marca: 'fiat',
-        modello:'sportiva',
+        modello: 'sportiva',
         alimentazione: 'metano',
-    }
+    },
     {
         auto: 'auto 7',
         marca: 'mercedes',
-        modello:'city-car',
-        alimentazione:'diesel',
-    }
+        modello: 'city-car',
+        alimentazione: 'diesel',
+    },
     {
         auto: 'auto 8',
         marca: 'bentley',
-        modello:'sportiva',
-        alimentazione:'metano',
-    }
+        modello: 'sportiva',
+        alimentazione: 'metano',
+    },
     {
         auto: 'auto 9',
         marca: 'bmw',
         modello: 'suv',
-        alimentazione:'diesel',
-    }
+        alimentazione: 'diesel',
+    },
     {
         auto: 'auto 10',
         marca: 'bentley',
-        modello:'city-car',
-        alimentazione:'metano',
-    }
+        modello: 'city-car',
+        alimentazione: 'metano',
+    },
     {
         auto: 'auto 11',
         marca: 'fiat',
-        modello:'sportiva',
-        alimentazione:'diesel',
-    }
+        modello: 'sportiva',
+        alimentazione: 'diesel',
+    },
     {
         auto: 'auto 12',
         marca: 'jeep',
         modello: 'suv',
-        alimentazione:'metano',
-    }
+        alimentazione: 'metano',
+    },
     {
         auto: 'auto 13',
         marca: 'toyota',
-        modello:'city-car',
-        alimentazione:'metano',
-    }
+        modello: 'city-car',
+        alimentazione: 'metano',
+    },
     {
         auto: 'auto 14',
         marca: 'fiat',
         modello: 'suv',
-        alimentazione:'metano',
-    }
+        alimentazione: 'metano',
+    },
     {
         auto: 'auto 15',
         marca: 'fiat',
         modello: 'city-car',
-        alimentazione:'metano',
+        alimentazione: 'metano',
     }
 ]
