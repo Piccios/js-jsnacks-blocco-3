@@ -28,7 +28,7 @@ const cars = [
         auto: 'auto 4',
         marca: 'toyota',
         modello:'sportiva',
-        alimentazione:
+        alimentazione: 'benzina',
     }
     {
         auto: 'auto 5',
@@ -40,7 +40,7 @@ const cars = [
         auto: 'auto 6',
         marca: 'fiat',
         modello:'sportiva',
-        alimentazione:
+        alimentazione: 'metano',
     }
     {
         auto: 'auto 7',
@@ -52,7 +52,7 @@ const cars = [
         auto: 'auto 8',
         marca: 'bentley',
         modello:'sportiva',
-        alimentazione:
+        alimentazione:'metano',
     }
     {
         auto: 'auto 9',
@@ -64,7 +64,7 @@ const cars = [
         auto: 'auto 10',
         marca: 'bentley',
         modello:'city-car',
-        alimentazione:
+        alimentazione:'metano',
     }
     {
         auto: 'auto 11',
@@ -76,24 +76,24 @@ const cars = [
         auto: 'auto 12',
         marca: 'jeep',
         modello: 'suv',
-        alimentazione:
+        alimentazione:'metano',
     }
     {
         auto: 'auto 13',
         marca: 'toyota',
         modello:'city-car',
-        alimentazione:
+        alimentazione:'metano',
     }
     {
         auto: 'auto 14',
         marca: 'fiat',
         modello: 'suv',
-        alimentazione:
+        alimentazione:'metano',
     }
     {
         auto: 'auto 15',
         marca: 'fiat',
         modello: 'city-car',
-        alimentazione:
+        alimentazione:'metano',
     }
 ]
