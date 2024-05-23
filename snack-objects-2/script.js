@@ -52,10 +52,8 @@ const people = [
 ]
 
 const newPeopleList = people.map((person) => {
-    return {
-        name: person.nome,
-        surname: person.cognome,
-        age: person.eta,
-        canDrive: person.eta >= 18,
+    return `${person.nome} ${person.cognome}, ${(person.eta >= 18) ? "puo guidare perche' maggiorenne" : "non puo guidare perche' minorenne"}`;
     }
-})
+)
+
+console.log(newPeopleList);
