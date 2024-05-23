@@ -2,7 +2,7 @@ const people = [
     {
         nome: 'Marco',
         cognome: 'Rossi',
-        eta: 25,
+        eta: 11,
     },
     {
         nome: 'Paolo',
@@ -22,7 +22,7 @@ const people = [
     {
         nome: 'Christian',
         cognome: 'Andolfi',
-        eta: 54,
+        eta: 14,
     },
     {
         nome: 'Luca',
@@ -42,7 +42,7 @@ const people = [
     {
         nome: 'Eleonora',
         cognome: 'Picchi',
-        eta: 36,
+        eta: 12,
     },
     {
         nome: 'Raffaella',
