@@ -1,8 +1,11 @@
 // > Crea un array composto da 15 automobili.
 // > Ogni oggetto automobile avrà le seguenti proprietà: marca, modello e alimentazione (benzina, diesel, gpl, elettrico, metano).
+
+
+
+
 // < Dividi le automobili in 3 array separati: nel primo array solo le auto a benzina, nel secondo solo le auto a diesel, nel terzo il resto delle auto.
 // < Infine stampa separatamente i 3 array.
-
 
 
 const cars = [
@@ -28,13 +31,13 @@ const cars = [
         auto: 'auto 4',
         marca: 'toyota',
         modello: 'sportiva',
-        alimentazione: 'benzina',
+        alimentazione: 'elettrico',
     },
     {
         auto: 'auto 5',
         marca: 'ford',
         modello: 'city-car',
-        alimentazione: 'diesel',
+        alimentazione: 'elettrico',
     },
     {
         auto: 'auto 6',
@@ -64,7 +67,7 @@ const cars = [
         auto: 'auto 10',
         marca: 'bentley',
         modello: 'city-car',
-        alimentazione: 'metano',
+        alimentazione: 'elettrico',
     },
     {
         auto: 'auto 11',
@@ -97,3 +100,10 @@ const cars = [
         alimentazione: 'metano',
     }
 ]
+
+
+const benzina = cars.filter(car => car.alimentazione === 'benzina');
+
+const diesel = cars.filter(car => car.alimentazione === 'diesel');
+
+const oterCars = cars.filter(car => car.alimentazione!== 'benzina' && car.alimentazione!== 'diesel');
