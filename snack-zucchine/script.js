@@ -1,5 +1,7 @@
 // Crea un array di 10 oggetti che rappresentano una zucchina, indicando per ognuna varietà, peso e lunghezza.
+// Calcola quanto pesano tutte le zucchine.
 
+// Infine stampa separatamente quanto pesano i due gruppi di zucchine.
 
 
 const zucchine = [
@@ -21,7 +23,7 @@ const zucchine = [
     {
         varietà: "Zucchina Bianca",
         peso: 120,
-        lunghezza: 15
+        lunghezza: 5
     },
     {
         varietà: "Zucchina Gialla",
@@ -31,7 +33,7 @@ const zucchine = [
     {
         varietà: "Zucchina Tonda di Nizza",
         peso: 220,
-        lunghezza: 12
+        lunghezza: 2
     },
     {
         varietà: "Zucchina Rugosa Friulana",
@@ -41,7 +43,7 @@ const zucchine = [
     {
         varietà: "Zucchina Patissone",
         peso: 210,
-        lunghezza: 14
+        lunghezza: 1
     },
     {
         varietà: "Zucchina Trombetta d'Albenga",
@@ -55,34 +57,17 @@ const zucchine = [
     }
 ];
 
-
-// Calcola quanto pesano tutte le zucchine.
-
-
 let pesoTotale = 0;
 for(let i= 0; i < zucchine.length; i++){
-    pesoTotale += zucchine[i].peso;
+    pesoTotale = pesoTotale + zucchine[i].peso;
 }
-
-console.log("Peso totale: " + pesoTotale);
-
+console.log("Peso totale: " + pesoTotale);  
 
 // Dividi in due array separati le zucchine che misurano meno o più di 8cm.
 
-let zucchine8cm = zucchine.filter(zucchina => zucchina.lunghezza > 8);
-
-console.log(zucchine8cm);
-
-let zucchineunder8 = zucchine.filter(zucchina => zucchina.lunghezza < 8);
-
-console.log(zucchineunder8);
 
 
-// Infine stampa separatamente quanto pesano i due gruppi di zucchine.
+const zucchineUnder8 = zucchine.filter(zucchina => zucchina.lunghezza < 8);
 
-let peso8cm = 0;
-for(let i=0; i<zucchine8cm.length; i++) {
-    pesoTotaleZucchine8 += zucchine8cm[i].peso;
-}
+console.log(zucchineUnder8);
 
-console.log
